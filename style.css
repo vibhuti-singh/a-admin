@@ -290,8 +290,11 @@ border-radius: 10px;
 .right-part-last-part{
     height: 43%;
     width: 98%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
-    
+    justify-content: center;
 }
 button{
     height: 30px;
@@ -316,10 +319,11 @@ button{
 #last-div-span{
     width: 6%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .div-p2-right{
-    height: 80%;
+    height: 100%;
     width: 45%;
     background-color: rgb(114, 118, 118);
    display: flex;
